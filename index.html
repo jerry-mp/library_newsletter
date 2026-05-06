@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>WSSB Libary Newsletter</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Test Heading</h1>
+    <button id="menu-btn" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
+    &#9776;
+  </button>
+  </header>
+  <nav id="main-nav" aria-hidden="true">
+  <ul>
+    <li><a href="#overview">In This Issue</a></li>
+    <li><a href="#calendar">Calendar</a></li>
+    <li><a href="#themes">Themes for [Month]</a></li>
+    <li><a href="#reading_list">Reading List for [Month]</a></li>
+    <li><a href="#resources">Getting Ready for [Season] Resources</a></li>
+  </ul>
+  </nav>
+  <main>
+    <!-- This section will contain the overview of the issue -->
+    <section id="overview">
+      <h2>In This Issue</h2>
+      <p>This is a test</p>
+    </section>
+    <!-- This section will contain the calendar -->
+    <section id="calendar">
+      <h2>Calendar</h2>
+      <p>Test paragraph</p>
+    </section>
+    <!-- This section will give the overview of the monthly themes -->
+    <section id="themes">
+      <h2>Themes for the Month</h2>
+      <p>Test paragraph</p>
+    </section>
+    <!-- This section will contain the given month's reading list -->
+    <!-- Each subsection in the reading list will feature a book cover image and blurb -->
+     <!-- Each image will function as a link to the library's catalog -->
+    <section id="reading_list">
+      <h2>Reading List for the Month</h2>
+      <div class="reading-list">
+        <!-- reading-list allows the books within the reading list to be displayed in flex -->
+          <p>
+            <a href="https://www.google.com"><img src="images/sample_book.jpeg" class="book-description" alt="Book Cover"></a>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        <p>Test 2</p>
+        <p>Test 3</p>
+      </div>
+    </section>
+    <section id="resources">
+      <h2>Getting Ready for [Season] Resources</h2>
+      <p>Test</p>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="script.js"></script>
+</body>
+</html>
