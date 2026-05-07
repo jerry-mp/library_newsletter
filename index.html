@@ -32,7 +32,14 @@
     <!-- This section will contain the calendar -->
     <section id="calendar">
       <h2>Calendar</h2>
-      <p>Test paragraph</p>
+      <ul class="calendar-list">
+        <!-- each li (list item) will feature three spans (spaces to place details): 1)Date of event; 2)event name; 3)details about the event -->
+        <li class="calendar-event">
+          <span class="calendar-date">Sample Date</span>
+          <span>Sample Event</span>
+          <span>Sample Details</span>
+        </li>
+      </ul>
     </section>
     <!-- This section will give the overview of the monthly themes -->
     <section id="themes">
@@ -47,7 +54,7 @@
       <div class="reading-list">
         <!-- reading-list allows the books within the reading list to be displayed in flex -->
           <p>
-            <a href="https://www.google.com"><img src="images/sample_book.jpeg" class="book-description" alt="Book Cover"></a>
+            <a href="https://www.google.com"><img src="images/sample_book.jpeg" class="book-description" alt="Book Cover" aria-label="Link to [Book]"></a>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
         <p>Test 2</p>
