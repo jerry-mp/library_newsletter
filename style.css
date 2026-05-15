@@ -6,7 +6,7 @@ body {
     padding: 2rem;
 }
 
-a:visited {
+a, a:visited {
   color: yellow;
 }
 
