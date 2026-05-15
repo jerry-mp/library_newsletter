@@ -113,3 +113,7 @@ footer a {
   color: white;
   font-size: 1rem;
 }
+
+footer a:visited {
+  color: white;
+}
