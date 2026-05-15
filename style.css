@@ -6,6 +6,10 @@ body {
     padding: 2rem;
 }
 
+a:visited {
+  color: yellow;
+}
+
 header {
       display: flex;
       align-items: center;
