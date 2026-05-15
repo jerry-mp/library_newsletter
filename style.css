@@ -107,6 +107,10 @@ h1 {
   color: yellow;
 }
 
+.themes a, .themes a:visited {
+  color: white;
+}
+
 
 .reading-list {
     display: flex;
