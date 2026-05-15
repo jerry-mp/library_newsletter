@@ -99,6 +99,8 @@ h1 {
 .themes {
   text-align: left;
   list-style-type: none;
+  font-size: 1rem;
+  color: white;
 }
 
 .themes h3 {
