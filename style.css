@@ -121,11 +121,8 @@ h1 {
 .book-description {
     float: left;
     margin-right: 10px;
-}
-
-.book-description img {
-  height: 125px;
-  width: 75px;
+    height: 125px;
+    width: 75px;
 }
 
 .book-description a{
