@@ -120,9 +120,12 @@ h1 {
 
 .book-description {
     float: left;
-    max-height: 250px;
-    max-width: 125px;
     margin-right: 10px;
+}
+
+.book-description img {
+  max-height: 250px;
+  max-width: 125px;
 }
 
 .book-description a{
