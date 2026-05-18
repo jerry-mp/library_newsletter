@@ -124,8 +124,8 @@ h1 {
 }
 
 .book-description img {
-  max-height: 250px;
-  max-width: 125px;
+  max-height: 125px;
+  max-width: 75px;
 }
 
 .book-description a{
