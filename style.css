@@ -101,6 +101,7 @@ h1 {
   list-style-type: none;
   font-size: 1rem;
   color: white;
+  padding: 10px 10px;
 }
 
 .themes h3 {
